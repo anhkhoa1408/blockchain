@@ -1,0 +1,22 @@
+.navbar {
+    width: 100%;
+    border:1px solid rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-nav li {
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 16px
+    /* min-width: 200px; */
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-link:hover {
+    color: rgba(0, 0, 0, 1);
+}
