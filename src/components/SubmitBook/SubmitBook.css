@@ -1,4 +1,4 @@
-h2 {
+#submit-book h2 {
     width: 100%;
     text-align: center;
 }
@@ -13,38 +13,38 @@ h2 {
     margin: 40px 0px;
 }
 
-.form-control {
+#submit-book .form-control {
     margin: 15px;
     width: 96%;
     /* width: 9; */
 }
 
-label {
+#submit-book label {
     display: block;
     width: fit-content;
     margin-bottom: 10px;
 }
 
-input {
+#submit-book input {
     float: left;
 }
 
-input[type="text"], 
-textarea,
-input[type="number"] {
+#submit-book input[type="text"], 
+#submit-book textarea,
+#submit-book input[type="number"] {
     width: 100%;
     padding: 10px;
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-textarea {
+#submit-book textarea {
     resize: none;
 }
 
-input[type="text"]:focus,
-textarea:focus,
-input[type="number"]:focus {
+#submit-book input[type="text"]:focus,
+#submit-book textarea:focus,
+#submit-book input[type="number"]:focus {
     box-shadow: 0px 0px 5px rgb(33, 122, 255);
     outline: none;
 }
@@ -52,7 +52,7 @@ input[type="number"]:focus {
     padding: 20px !important;
 } */
 
-.submit-book-btn {
+#submit-book .submit-book-btn {
     margin-left: 10px;
     margin-top: 20px;
     padding: 10px 20px;
@@ -64,7 +64,7 @@ input[type="number"]:focus {
     border-radius: 20px;
 }
 
-.submit-book-btn:hover {
+#submit-book .submit-book-btn:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(7, 91, 247);
 }

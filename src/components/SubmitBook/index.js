@@ -1,4 +1,4 @@
-import './index.css';
+import './SubmitBook.css';
 import React, { useState } from 'react';
 
 function SubmitBook() {
@@ -22,7 +22,7 @@ function SubmitBook() {
     }
 
     return (
-        <div className="submit-book-form">
+        <div className="submit-book-form" id="submit-book">
             <h2>Submit book to your library</h2>
             <div className="form-control">
                 <label>Title</label>

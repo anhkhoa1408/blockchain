@@ -1,4 +1,4 @@
-.book-info-container {
+#book-info .book-info-container {
     margin: 40px 0px;
     display: flex;
     flex-direction: row;
@@ -8,46 +8,46 @@
     border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-.book-info {
+#book-info .book-info {
     display: flex;
     justify-content: space-between;
     
 }
 
-.book-img {
+#book-info .book-img {
     height: 60%;
     padding: 30px;
     display: flex;
     border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-.book-info img {
+#book-info .book-info img {
     height: 70%;
     align-self: center;
     /* width: 400px; */
 }
 
-.book-item {
+#book-info .book-item {
     min-width: 500px;
     /* margin-left: 50px; */
     padding: 0px 20px;
 }
 
-.book-item h1 {
+#book-info .book-item h1 {
     font-size: 45px;
 }
 
-.book-item > h3 {
+#book-info .book-item > h3 {
     margin-top: 10px;
     font-size: 18px;
     font-weight: 200;
 }
 
-.book-action {
+#book-info .book-action {
     margin-top: 10px;
 }
 
-.book-action button {
+#book-info .book-action button {
     /* margin-top: 10px; */
     padding: 20px 40px;
     min-width: 48%;
@@ -59,30 +59,30 @@
     font-size: 18px;
 }
 
-.buy-book-btn {
+#book-info .buy-book-btn {
     background-color: rgb(34, 165, 56);   
     margin-right: 10px;
 
 }
 
-.borrow-book-btn {
+#book-info .borrow-book-btn {
     background-color: rgb(223, 20, 20);   
     float: right;
 }
 
-.buy-book-btn:hover,
-.borrow-book-btn:hover {
+#book-info .buy-book-btn:hover,
+#book-info .borrow-book-btn:hover {
     background-color: rgb(255, 255, 255);
     color: rgb(7, 91, 247);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3)
 }
 
-.book-content {
+#book-info .book-content {
     margin-top: 20px;
     border: 1px solid rgba(0, 0, 0, 0.3);
     padding: 20px;
 }
 
-.book-content label {
+#book-info .book-content label {
 
 }

@@ -1,4 +1,4 @@
-import './index.css';
+import './BookInfo.css';
 import React, { useState } from 'react';
 
 function BookInfo() {
@@ -7,7 +7,7 @@ function BookInfo() {
     console.log(book.bookCover);
 
     return (
-        <div className="book-info-container">
+        <div className="book-info-container" id="book-info">
             <div className="book-info">
                 <div>
                     <div className="book-img">
