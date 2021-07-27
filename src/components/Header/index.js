@@ -26,6 +26,11 @@ function Header() {
                             BLOG
                         </Link>
                     </li>
+                    <li className="nav-item">
+                        <Link to="/MarketPlace" className="nav-link">
+                            MARKET PLACE
+                        </Link>
+                    </li>
                 </ul>
             </div>
         </div>

@@ -1,7 +1,8 @@
 import './App.css';
 import SubmitBook from '../src/components/SubmitBook'
 import BookInfo from '../src/components/BookInfo'
-import MarketPlace from '../src/components/MarketPlace'
+import Library from './components/Library'
+import MarketPlace from './components/MarketPlace';
 import Header from '../src/components/Header'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -21,6 +22,10 @@ function App() {
                 </Route>
 
                 <Route path="/NFTBookLibrary">
+                    <Library />
+                </Route>
+
+                <Route path="/MarketPlace">
                     <MarketPlace />
                 </Route>
             </Switch>
