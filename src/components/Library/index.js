@@ -1,7 +1,9 @@
 import './Library.css';
 import React from 'react';
+import '../../Fontawesome/index';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-function SearchBook() {
+function Library() {
     return (
         <div className="library-container" id="library">
             {/* Filter book */}
@@ -108,7 +110,10 @@ function SearchBook() {
 
             {/* Search book */}
             <div className="library-item">
-                <button className="sort-btn">Sort by</button>
+                <button className="sort-btn">
+                    Sort by 
+                    <FontAwesomeIcon icon="angle-down" />
+                </button>
 
                 <div className="book-row">
                     <div className="book-item">
@@ -251,7 +256,7 @@ function SearchBook() {
                     </div>
                 </div>
 
-                <div class="pagination">
+                <div className="pagination">
                     <a href="/">&laquo;</a>
                     <a href="/">1</a>
                     <a href="/">2</a>
@@ -265,4 +270,4 @@ function SearchBook() {
     );
 }
 
-export default SearchBook;
+export default Library;

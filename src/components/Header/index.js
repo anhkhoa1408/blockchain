@@ -1,9 +1,15 @@
 import './Header.css';
 import { Link } from 'react-router-dom';
+import logo from './../../logo.png';
+
+import '../../Fontawesome/index';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function Header() {
     return (
         <div className="navbar">
+            <img className="book-store-logo" src={logo} alt=""></img>
+
             <div className="navbar-item">
                 <ul className="navbar-nav">
                     <li className="nav-item">
@@ -32,6 +38,11 @@ function Header() {
                         </Link>
                     </li>
                 </ul>
+            </div>
+            
+            <div className="search-section">
+                <FontAwesomeIcon icon="search" />
+                <input className="search-box"></input>
             </div>
         </div>
     );

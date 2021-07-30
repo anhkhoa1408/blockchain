@@ -20,7 +20,8 @@
 
 #library .sort-btn {
     align-self: flex-end;
-    /* display: block; */
+    display: flex;
+    justify-content: space-between;
     width: fit-content;
     padding: 10px 20px;
     min-width: 120px;
@@ -28,8 +29,13 @@
     border: 1px solid rgba(0, 0, 0, 0.2);
     cursor: pointer;
     border-radius: 5px;
-    text-align: right;
+    align-items: center;
     margin: 0px 10px 20px 0px;
+}
+
+#library .sort-btn svg {
+    color: rgba(0,0,0,0.3);
+    font-size: 1.2rem;
 }
 
 #library .book-row {

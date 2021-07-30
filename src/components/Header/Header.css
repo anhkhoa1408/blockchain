@@ -2,7 +2,16 @@
     width: 100%;
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.book-store-logo {
+    height: 60px;
+    margin-left: 40px;
+}
+
+.navbar-item {
+    justify-self: center;
 }
 
 .navbar-nav li {
@@ -19,4 +28,34 @@
 
 .nav-link:hover {
     color: rgba(0, 0, 0, 1);
+}
+
+
+.search-section {
+    align-self: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-section svg {
+    position: absolute;
+    z-index: 1;
+    left: 10px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.search-box {
+    padding: 10px 30px;
+    display: block;
+    float: right;
+    height: 35px;
+    width: 250px;
+    margin-right: 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.search-box:focus {
+    outline: none;
 }
